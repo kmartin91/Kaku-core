@@ -1,6 +1,6 @@
 {
   "name": "kaku-core",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "This repo keeps shared scripts that can be reused in differnt clients",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/EragonJ/Kaku-core.git"
+    "url": "git+ssh://git@github.com/kmartin91/Kaku-core.git"
   },
   "keywords": [
     "kaku",
@@ -24,18 +24,18 @@
   "homepage": "https://github.com/EragonJ/Kaku-core#readme",
   "dependencies": {
     "node-itunes-rss-data": "^1.1.1",
-    "node-soundcloud": "0.0.5",
+    "node-soundcloud": "0.0.6",
     "request": "^2.72.0",
-    "vimeo": "^1.1.4",
+    "vimeo": "^2.1.0",
     "youtube-dl-node": "^0.0.7",
     "youtube-node": "eragonj/youtube-node"
   },
   "devDependencies": {
     "babel-register": "^6.9.0",
-    "chai": "^3.5.0",
-    "jsdom": "^9.2.1",
-    "mocha": "^2.5.3",
-    "proxyquire": "^1.7.9",
-    "sinon": "^1.17.4"
+    "chai": "^4.2.0",
+    "jsdom": "^12.2.0",
+    "mocha": "^5.2.0",
+    "proxyquire": "^2.1.0",
+    "sinon": "^7.1.0"
   }
 }
